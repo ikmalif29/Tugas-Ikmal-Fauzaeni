@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: flex;
+    justify-content: center;
+    > .loader {
+        margin-top: 360px;
+        width: 50px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        border: 8px solid;
+        border-color: #000 #0000;
+        animation: l1 01s infinite;
+      }
+}
+  @keyframes l1 {to{transform: rotate(.5turn)}}
